@@ -1,0 +1,94 @@
+.container-fluid {
+  height: 100%;
+}
+
+.rightblock {
+  background-color: #23232dfa;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+
+}
+.avatarblock {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+//   height: 100vh;
+}
+
+.card {
+  background-color: #23232dfa;
+  width: 95%;
+  //   height: 295px;
+  text-align: center;
+  padding: 5px;
+}
+
+.font {
+  font-family: "Poppins", sans-serif;
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #ffff0070;
+  height: 1px;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.xsmfnt {
+  font-size: 14px;
+}
+.dimcolor {
+  color: #848487;
+}
+.flexrowctr {
+  display: flex;
+  justify-content: center;
+}
+
+.flexrowevn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  min-width: 85px;
+}
+.scrolleffect::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrolleffect {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.carddmns {
+  height: 250px;
+  width: 250px;
+}
+.projectsflex {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.projecttitle {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin:10px
+}
