@@ -12,11 +12,15 @@ import { NzTypographyModule } from 'ng-zorro-antd/typography';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ViewprojectComponent } from './viewproject/viewproject.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ProjectsComponent,
+    ViewprojectComponent
   ],
   imports: [
     BrowserModule,

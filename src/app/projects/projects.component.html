@@ -1,0 +1,55 @@
+<div>
+    <nz-tag nzColor="#153b5a" class="projecttitle">
+        <span>&nbsp;{{projectCategory}}</span>
+    </nz-tag>
+</div>
+
+<div class="projectsflex">
+    <div *ngFor="let project of projects">
+        <nz-card class="carddmns" [nzLoading]="loading">
+            <nz-card-meta nzTitle="Project one" nzDescription="Project Description">
+            </nz-card-meta>
+        </nz-card>
+        <ng-template #actionSetting>
+            <i nz-icon nzType="setting"></i>
+        </ng-template>
+        <ng-template #actionEdit>
+            <i nz-icon nzType="edit"></i>
+        </ng-template>
+        <ng-template #actionEllipsis>
+            <i nz-icon nzType="ellipsis"></i>
+        </ng-template>
+    </div>
+
+    <!-- <div>
+        <nz-card class="carddmns" [nzLoading]="loading">
+            <nz-card-meta nzTitle="Project one" nzDescription="Project Description">
+            </nz-card-meta>
+        </nz-card>
+        <ng-template #actionSetting>
+            <i nz-icon nzType="setting"></i>
+        </ng-template>
+        <ng-template #actionEdit>
+            <i nz-icon nzType="edit"></i>
+        </ng-template>
+        <ng-template #actionEllipsis>
+            <i nz-icon nzType="ellipsis"></i>
+        </ng-template>
+    </div>
+
+    <div>
+        <nz-card class="carddmns" [nzLoading]="loading">
+            <nz-card-meta nzTitle="Project one" nzDescription="Project Description">
+            </nz-card-meta>
+        </nz-card>
+        <ng-template #actionSetting>
+            <i nz-icon nzType="setting"></i>
+        </ng-template>
+        <ng-template #actionEdit>
+            <i nz-icon nzType="edit"></i>
+        </ng-template>
+        <ng-template #actionEllipsis>
+            <i nz-icon nzType="ellipsis"></i>
+        </ng-template>
+    </div> -->
+</div>
