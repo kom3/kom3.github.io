@@ -8,14 +8,13 @@
   flex-direction: column;
   height: 100vh;
   overflow: auto;
-
 }
 .avatarblock {
   display: flex;
   flex-direction: column;
   // justify-content: center;
   align-items: center;
-//   height: 100vh;
+  //   height: 100vh;
 }
 
 .card {
@@ -90,5 +89,11 @@ hr {
   display: flex;
   align-items: center;
   height: 50px;
-  margin:10px
+  margin: 10px;
+}
+
+.btm-nav-bar {
+  background-color: #22222d;
+  color: #fff;
+  border: hidden;
 }

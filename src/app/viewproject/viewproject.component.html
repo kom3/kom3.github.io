@@ -1,1 +1,26 @@
-<p>viewproject works!</p>
+<!-- <button nz-button nzType="primary" (click)="showModalMiddle()">Vertically centered modal dialog</button> -->
+
+
+
+<nz-modal [(nzVisible)]="isVisibleMiddle" [nzTitle]="project_title" nzCentered (nzOnCancel)="handleCancelMiddle()"
+    nzWidth=60% nzMaskClosable="false">
+    <ng-container *nzModalContent>
+        <div style="overflow-y:scroll; height: 600px;">
+            <nz-tag class="viewpjheaders">
+                <span>&nbsp;Project Details</span>
+            </nz-tag>
+            <ul>
+                <li class="list_item" *ngFor="let desc of project_more_desc">{{desc}}</li>
+            </ul>
+            <nz-tag class="viewpjheaders">
+                <span>&nbsp;Roles and Responsibilities</span>
+            </nz-tag>
+            <ul>
+                <li class="list_item" *ngFor="let role of roles_resps">{{role}}</li>
+            </ul>
+        </div>
+    </ng-container>
+    <div *nzModalFooter>
+        <button nz-button nzType="default" (click)="handleCancelMiddle()">Close</button>
+    </div>
+</nz-modal>

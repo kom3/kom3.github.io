@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~11.2.9",
     "@angular/platform-browser-dynamic": "~11.2.9",
     "@angular/router": "~11.2.9",
+    "@ant-design/icons": "^4.6.2",
     "bootstrap": "^4.6.0",
     "ng-zorro-antd": "^11.4.0",
     "ngx-bootstrap": "^6.2.0",
