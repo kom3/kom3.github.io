@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="card scrolleffect"
-                    style="background-color: #20202a; color: #fff; overflow-y: scroll; max-height: 500px;">
+                    style="background-color: #20202a; color: #fff; overflow-y: scroll;">
                     <div class="flexrowevn">
                         <div class="flexcol xsmfnt">
                             <div>Residence</div>
@@ -84,13 +84,13 @@
                                     <span>&nbsp;Django</span>
                                 </nz-tag>
                             </div>
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <nz-tag nzColor="#575759">
                                     <img src="./assets/images/flask.jpg" alt="Flask" title="Flask" height="20px"
                                         width="20px">
                                     <span>&nbsp;Flask</span>
                                 </nz-tag>
-                            </div>
+                            </div> -->
                             <div class="icon">
                                 <nz-tag nzColor="#47653d">
                                     <img src="./assets/images/node.jpg" alt="Nodejs" title="Nodejs" height="20px"
@@ -187,7 +187,7 @@
 
                     <div>
                         <div> Front end web technologies</div>
-                        <div class="flexrowctr">
+                        <div class="flexrowctr"  style="margin-top: 5px;">
                             <div class="icon">
                                 <nz-tag nzColor="#793018">
                                     <img src="./assets/images/html.png" alt="HTML" title="HTML" height="20px"
@@ -219,25 +219,74 @@
                                 </nz-tag>
                             </div>
                             <div class="icon">
-                                <nz-tag nzColor="#3c382b">
-                                    <img src="./assets/images/ajax.jpg" alt="javascript" title="javascript"
-                                        height="20px" width="20px">
-                                    <span>&nbsp;AJAX</span>
-                                </nz-tag>
-                            </div>
-                            <div class="icon">
                                 <nz-tag nzColor="#301d54">
                                     <img src="./assets/images/bootstrap.png" alt="javascript" title="javascript"
                                         height="20px" width="20px">
                                     <span>&nbsp;Bootstrap</span>
-                                </nz-tag><br><br>
+                                </nz-tag>
                             </div>
                         </div>
+                        <div class="flexrowctr"  style="margin-top: 5px;">
+                            <div class="icon">
+                                <nz-tag nzColor="#3c382b">
+                                    <img src="./assets/images/ajax.jpg" alt="javascript" title="javascript"
+                                        height="20px" width="20px">
+                                    <span>&nbsp;Ant Design</span>
+                                </nz-tag>
+                            </div>
+                            <div class="icon">
+                                <nz-tag nzColor="#3c382b">
+                                    <img src="./assets/images/ajax.jpg" alt="javascript" title="javascript"
+                                        height="20px" width="20px">
+                                    <span>&nbsp;Material UI</span>
+                                </nz-tag>
+                            </div>
+                       </div>
                     </div>
                 </div>
+                <ul nz-menu nzMode="horizontal" class="btm-nav-bar">
+                    <li nz-menu-item>
+                        <a style="color: #fff; text-decoration: none;" href="https://github.com/kom3"
+                            target="_blank">GitHub</a>
+                    </li>
+                    <li nz-menu-item>
+                        <a style="color: #fff; text-decoration: none;"
+                            href="https://www.linkedin.com/in/manjunath-ko-b4181115a/" target="_blank">LinkedIn</a>
+                    </li>
+                    <!-- <li nz-menu-item>
+                        <a style="color: #fff; text-decoration: none;" nzType="primary" nz-popover nzPopoverTitle=""
+                            [(nzPopoverVisible)]="visible_skype" nzPopoverTrigger="click"
+                            [nzPopoverContent]="skypeTemplate">
+                            Skype
+                        </a>
+                        <ng-template #skypeTemplate>
+                            live:manjunathkankatteko
+                        </ng-template>
+                    </li> -->
+                    <li nz-menu-item>
+                        <a style="color: #fff; text-decoration: none;" nzType="primary" nz-popover nzPopoverTitle=""
+                            [(nzPopoverVisible)]="visible_email" nzPopoverTrigger="click"
+                            [nzPopoverContent]="emailTemplate">
+                            Email
+                        </a>
+                        <ng-template #emailTemplate>
+                            manjunathkankatteko@gmail.com
+                        </ng-template>
+                    </li>
+                    <li nz-menu-item>
+                        <a style="color: #fff; text-decoration: none;" nzType="primary" nz-popover nzPopoverTitle=""
+                            [(nzPopoverVisible)]="visible_phone" nzPopoverTrigger="click"
+                            [nzPopoverContent]="phoneTemplate">
+                            Phone
+                        </a>
+                        <ng-template #phoneTemplate>
+                            +91 8197326715
+                        </ng-template>
+                    </li>
+                </ul>
             </div>
 
-            <ul nz-menu nzMode="horizontal" class="btm-nav-bar">
+            <!-- <ul nz-menu nzMode="horizontal" class="btm-nav-bar">
                 <li nz-menu-item>
                     <a style="color: #fff; text-decoration: none;" href="https://github.com/kom3"
                         target="_blank">GitHub</a>
@@ -276,7 +325,7 @@
                         +91 8197326715
                     </ng-template>
                 </li>
-            </ul>
+            </ul> -->
 
         </div>
         <div class="col-sm-9">

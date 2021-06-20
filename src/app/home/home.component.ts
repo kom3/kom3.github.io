@@ -59,7 +59,7 @@ export class HomeComponent implements OnInit {
           moredesc: [
             'Warrior Framework is an open source automation framework designed to enable anyone to automate their \
             testing, processes, and repetitive tasks by simplifying the complex process of building an automation infrastructure',
-            'As a keyword and data driven framework, Warrior’s infrastructure is built to maximize on reusability of built in keywords',
+            'As a keyword and data driven framework, Warrior’s infrastructure is built to maximize on re-usability of built in keywords',
             'In addition, Warrior’s app based platform provides the users with native apps to easily implement their automation needs, \
             while providing the user with the ability to customize their own workflow apps',
           ],
@@ -140,14 +140,14 @@ export class HomeComponent implements OnInit {
           moredesc: [],
           rrs: [],
         },
-        {
-          title: 'Knowledge Tree',
-          url: '',
-          description:
-            'This is a tutorial website, where one can learn about web technologies and frameworks.',
-          moredesc: [],
-          rrs: [],
-        },
+        // {
+        //   title: 'Knowledge Tree',
+        //   url: '',
+        //   description:
+        //     'This is a tutorial website, where one can learn about web technologies and frameworks.',
+        //   moredesc: [],
+        //   rrs: [],
+        // },
         {
           title: 'Techynotes',
           url: '',

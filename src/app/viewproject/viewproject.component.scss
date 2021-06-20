@@ -1,14 +1,33 @@
 .viewpjheaders {
   display: flex;
   //   padding: 5px;
-  color: #1862c1;
-  border-color: #3c11d740;
+  color: #fff;
+  // border-color: #3c11d740;
   //   width: 99%;
-  height: 40px;
+  min-height: 40px;
   //   padding: 9px;
   font-size: 22px;
+  margin: 0 8px 0 0;
+  border: 1px solid #00000029;
+  align-items: center;
+  box-shadow: 2px 1px 4px 1px #645946a8;
+  background-color: #000074a6;
+
 }
+
+// ul{
+//   box-shadow:3px 2px 7px 0px #645946a8;
+// }
 
 .list_item {
   font-size: 18px;
+}
+
+.litems{
+  margin: 0 8px 0 0;
+  box-shadow: 1px 1px 3px 1px #645946a8;
+  margin-bottom: 10px;
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  // background-color: ghostwhite;
 }

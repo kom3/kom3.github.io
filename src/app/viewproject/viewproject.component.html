@@ -3,19 +3,25 @@
 
 
 <nz-modal [(nzVisible)]="isVisibleMiddle" [nzTitle]="project_title" nzCentered (nzOnCancel)="handleCancelMiddle()"
-    nzWidth=60% nzMaskClosable="false">
+    nzWidth=75% nzMaskClosable="false">
     <ng-container *nzModalContent>
-        <div style="overflow-y:scroll; height: 600px;">
-            <nz-tag class="viewpjheaders">
+        <div style="overflow-y:scroll; height: 500px;">
+            <!-- <nz-tag class="viewpjheaders">
                 <span>&nbsp;Project Details</span>
-            </nz-tag>
-            <ul>
+            </nz-tag> -->
+            <div class="viewpjheaders">
+                <span>&nbsp;Project Details</span>
+            </div>
+            <ul class="litems">
                 <li class="list_item" *ngFor="let desc of project_more_desc">{{desc}}</li>
             </ul>
-            <nz-tag class="viewpjheaders">
+            <!-- <nz-tag class="viewpjheaders">
                 <span>&nbsp;Roles and Responsibilities</span>
-            </nz-tag>
-            <ul>
+            </nz-tag> -->
+            <div class="viewpjheaders">
+                <span>&nbsp;Roles and Responsibilities</span>
+            </div>
+            <ul class="litems">
                 <li class="list_item" *ngFor="let role of roles_resps">{{role}}</li>
             </ul>
         </div>

@@ -62,12 +62,14 @@ hr {
 }
 .scrolleffect::-webkit-scrollbar {
   display: none;
+  // max-height: calc(100vh - 279px);
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .scrolleffect {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  max-height:calc(100vh - 279px);
 }
 
 .carddmns {
