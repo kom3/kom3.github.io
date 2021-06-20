@@ -6,7 +6,7 @@
 
 <div class="container-fluid">
     <div class="row font" style="background-color: #191923; ">
-        <div class="col-sm-3" style="height: 100%; width: 100%;">
+        <div class="col-md-3" style="height: 100%; width: 100%;">
             <div class="avatarblock">
                 <div class="card">
                     <div style="padding: 5px">
@@ -16,8 +16,7 @@
                             Full stack developer</h4>
                     </div>
                 </div>
-                <div class="card scrolleffect"
-                    style="background-color: #20202a; color: #fff; overflow-y: scroll;">
+                <div class="card scrolleffect" style="background-color: #20202a; color: #fff; overflow-y: scroll;">
                     <div class="flexrowevn">
                         <div class="flexcol xsmfnt">
                             <div>Residence</div>
@@ -111,6 +110,34 @@
                     </div>
 
                     <div>
+                        <div>Databases</div>
+                        <div class="flexrowctr">
+                            <div class="icon">
+                                <nz-tag nzColor="#2d6589">
+                                    <img src="./assets/images/mysql.png" alt="Django" title="Django" height="20px"
+                                        width="20px">
+                                    <span>&nbsp;MySQL</span>
+                                </nz-tag>
+                            </div>
+                            <div class="icon">
+                                <nz-tag nzColor="#2d6589">
+                                    <img src="./assets/images/mongo.png" alt="Django" title="Django" height="20px"
+                                        width="20px">
+                                    <span>&nbsp;MongoDB</span>
+                                </nz-tag>
+                            </div>
+                            <div class="icon">
+                                <nz-tag nzColor="#2d6589">
+                                    <img src="./assets/images/postgres.png" alt="Django" title="Django" height="20px"
+                                        width="20px">
+                                    <span>&nbsp;Postgres</span>
+                                </nz-tag>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div>
                         <div>Tools</div>
                         <div class="flexrowctr">
                             <div class="icon">
@@ -187,7 +214,7 @@
 
                     <div>
                         <div> Front end web technologies</div>
-                        <div class="flexrowctr"  style="margin-top: 5px;">
+                        <div class="flexrowctr" style="margin-top: 5px;">
                             <div class="icon">
                                 <nz-tag nzColor="#793018">
                                     <img src="./assets/images/html.png" alt="HTML" title="HTML" height="20px"
@@ -226,7 +253,7 @@
                                 </nz-tag>
                             </div>
                         </div>
-                        <div class="flexrowctr"  style="margin-top: 5px;">
+                        <div class="flexrowctr" style="margin-top: 5px;">
                             <div class="icon">
                                 <nz-tag nzColor="#3c382b">
                                     <img src="./assets/images/ajax.jpg" alt="javascript" title="javascript"
@@ -241,7 +268,7 @@
                                     <span>&nbsp;Material UI</span>
                                 </nz-tag>
                             </div>
-                       </div>
+                        </div>
                     </div>
                 </div>
                 <ul nz-menu nzMode="horizontal" class="btm-nav-bar">
@@ -328,8 +355,9 @@
             </ul> -->
 
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
             <div class="rightblock" style="width: 100%;">
+                <app-profiledetails></app-profiledetails>
                 <div>
                     <app-projects projectCategory="Company projects" [loading]="loading" [projects]=cpnyprojects>
                     </app-projects>

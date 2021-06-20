@@ -26,6 +26,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ViewprojectComponent } from './viewproject/viewproject.component';
+import { ProfiledetailsComponent } from './profiledetails/profiledetails.component';
 
 // import { AccountBookFill, AlertFill, AlertOutline } from '@ant-design/icons-angular/icons';
 // const icons: IconDefinition[] = [ AccountBookFill, AlertOutline, AlertFill ];
@@ -36,6 +37,7 @@ import { ViewprojectComponent } from './viewproject/viewproject.component';
     HomeComponent,
     ProjectsComponent,
     ViewprojectComponent,
+    ProfiledetailsComponent,
   ],
   imports: [
     BrowserModule,

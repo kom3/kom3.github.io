@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  constructor() { }
 
   ngOnInit(): void {
     this.stopLoading();
@@ -41,6 +41,9 @@ export class HomeComponent implements OnInit {
           moredesc: [
             'Smart hire is a hiring assessment tool to identify the best candidates and to make the hiring \
             decisions faster, easier and bias-free',
+            'This is a internal tool used by Terralogic software solutions for recruiting purpose',
+            'Using this tool we can create exams which can be MCQs based or Coding challenges',
+            'At the end we can easily filter the candidates based on their performance',
             'The technologies used in this project are Django, ReactJS and MySQL',
           ],
           rrs: [
@@ -131,15 +134,41 @@ export class HomeComponent implements OnInit {
       projects: [
         // { title: 'CRM', description: 'CRM desc' },
         {
-          title: 'Task Tracker',
+          title: 'Techynotes',
           url: '',
           description:
-            'This app helps to keep track of all the tasks which have been done\
-            or undergoing in a project, it provides an option to download the tasks report as a pdf file and also one can\
-            directly send the tasks report via mail.',
-          moredesc: [],
-          rrs: [],
+            'Techynotes is a web based app which helps to create and save notes/documentations on github.',
+          moredesc: [
+            'Techynotes is a web based app which helps to create and maintain notes or documentations',
+            'This application is built using Django framework',
+            'The idea behind this project is to enable anyone to create notes or documentations and \
+            to save those on github',
+            'It has a option to search for other user(s) notes, and this way one can easily take a look \
+            at other\'s notes/documentations',
+            'I am still working on some other features to make this app \
+             more useful',
+            'I am personally using this app to create my technical notes and documenations \
+            and to save those on github',
+            'This is available as a pip package, so one can install(pip install techynotes) \
+            and integrate this application in their own project, (PIP package link: https://pypi.org/project/techynotes/)',
+            'There is also a docker image of the same, where one can pull the image and run this application\
+            on their system, (Docker image link: https://hub.docker.com/r/manjunathko/techynotes)'
+          ],
+          rrs: [
+            'Since it\'s a personal project I alone built it from scratch',
+            'And I am spending my free time in developing new features'
+          ],
         },
+        // {
+        //   title: 'Task Tracker',
+        //   url: '',
+        //   description:
+        //     'This app helps to keep track of all the tasks which have been done\
+        //     or undergoing in a project, it provides an option to download the tasks report as a pdf file and also one can\
+        //     directly send the tasks report via mail.',
+        //   moredesc: [],
+        //   rrs: [],
+        // },
         // {
         //   title: 'Knowledge Tree',
         //   url: '',
@@ -148,14 +177,6 @@ export class HomeComponent implements OnInit {
         //   moredesc: [],
         //   rrs: [],
         // },
-        {
-          title: 'Techynotes',
-          url: '',
-          description:
-            'Techynotes is a web based app which Helps to create and save notes on github.',
-          moredesc: [],
-          rrs: [],
-        },
       ],
     },
   ];
